@@ -5,6 +5,11 @@ body{
     max-width: 1200px;
     display: flexbox;
     height: 100vh;
+    background-color: #efefef;
+
+}
+h1 h2 h3 h4 h5 h6{
+    margin: 0 0 0 0; 
 }
 *{
     display: flexbox;

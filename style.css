@@ -1,3 +1,5 @@
+/*nav bar*/
+
 .nav{
     display: flex;
     align-items: center;
@@ -6,7 +8,6 @@
     font-size: 20px;
 }
 .nav-button{
-    background-color: #ffffff;
     color: #007a33;
     border-width: 1px;
     border-color: #007a33;
@@ -16,47 +17,186 @@
     font-size: 20px;
     cursor: pointer;
 }
+
+/*banner-style*/
+
+.banner{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+
+    max-width: 1200px;
+    justify-content: space-between;
+    background-color: #d3eae1;
+    border-radius: 20px;
+    padding: 60px 40px;
+}
+
+.banner-picture img{
+    display: flex-end;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    object-fit: cover;
+    width: 300px;
+    height: 300px;
+}
 .btn-primary{
+    font-weight: bold;
     background-color: #007a33;
     color: #ffffff;
     border: none;
     border-radius: 5px;
-    padding: 10px 20px;
+    padding: 15px 30px;
     font-size: 16px;
     cursor: pointer;
 }
-/*header-style*/
-.banner{
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    max-width: 1200px;
-    background-color: #d3eae1;
-    border-radius: 20px;
-    padding: 20px 40px;
-}
-.banner-picture img{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    object-fit: scale-down;
-    width: 300px;
-    height: 300px;
-}
-/*banner style*/
 .banner-container{
     display: flex;
-
+    flex-wrap: wrap;
 }
 .banner-l1{
-    font-size: 16px;
+    font-weight: normal;
+    font-size: 20px;
     color: gray;
 }
 .banner-l2{
-    font-size: 36px;
+    font-size: 48px;
 }
 .banner-content{
     max-width: 580px;
 
+}
+
+/* vision cards*/
+.vision-intro h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+.vision-intro p{
+    color: #555;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 40px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.vision-cards-container{
+        display: flex;
+        padding: 20px 0;
+        justify-content: space-between;
+        gap: 20px;
+}
+.vision-card{
+    background: #d3eae1;
+    border-radius: 10px;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+    /* text-align: center; */
+    padding: 20px;
+    width: 300px;
+    height: 300px;
+    /* transition: transform 0.3s, box-shadow 0.3s; */
+}
+.vision-card p {
+    color: #777;
+    font-size: 16px;
+}
+.vision-card .icon img {
+    width: 60px;
+    height: 60px;
+}
+.learn-more-btn{
+        font-weight: bold;
+        background-color: #007a33;
+        color: #ffffff;
+        border: none;
+        border-radius: 5px;
+        padding: 10px 20px;
+        font-size: 12px;
+        cursor: pointer;
+}
+/* quote style */
+.quote-section {
+    line-height: 1.8;
+    color: #555;
+    margin: 0 auto;
+    position: relative;
+    padding: 20px 40px;
+    background: #ffffff;
+    border-radius: 10px;
+}
+.quote{
+    margin: 0 auto;
+    position: relative;
+}
+.quote strong{
+    font-size: 20px;    
+}
+.quote span{
+    font-size: 14px;    
+}
+.quote-section img{
+    position: absolute;
+}
+
+.recent-news h2 {
+    font-size: 32px;
+    color: #333;
+    margin:40 0px;
+}
+
+.news-cards {
+    display: flex;
+    border-radius: 5px;
+    display: flex;
+    padding: 20px 0;
+    justify-content: space-between;
+    background-color: #ffffff;
+
+}
+
+.news-card {
+    gap: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 100%;
+    max-width: 600px;
+}
+
+/* Donate Section */
+.donate-section {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.donate-section h2 {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.donate-section p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Donation Buttons */
+.donate-button{
+    display: inline;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 24px;
+    padding: 10px 20px;
+    color: gray;
+    gap: 20px;
 }
