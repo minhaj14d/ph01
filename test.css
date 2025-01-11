@@ -1,74 +1,59 @@
-/* Vision Section Container */
-.vision-container {
-    padding: 0 0 20px;
+.card{
+        width: 100%;
+        background-color: white;
+        align-items: center;
+        border-radius: 10px;
+        padding: 20px;
+    }
+.survey-section{
+    padding: 20px 0 20px 0;
 }
 
-/* Intro Section */
-.vision-intro h2 {
-    font-size: 32px;
-    margin-bottom: 20px;
+.survey-container{
+    background-color: white;
+}
+.survey-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
 }
 
-.vision-intro p {
-    font-size: 12px;
-    color: #555;
-    line-height: 1.6;
-    margin-bottom: 40px;
-}
-
-/* Vision Cards Container */
-.vision-cards-container {
+.header-row {
+    background-color: #e0f3e9;
+    padding: 15px;
+    border: 1px solid #666;
     display: flex;
     justify-content: space-between;
-    gap: 20px;
-}
-
-/* Individual Vision Card */
-.vision-card {
-    background: #d3eae1;
-    border-radius: 10px;
-    padding: 20px;
-    gap: 0 10px;
-}
-#vc1{
-    background: #FFC23944;
-}
-#vc2{
-    background: #007a3344;
-}
-#vc3{
-    background: #FFC23944;
-}
-/* Icon Styling */
-.vision-card .icon img {
-    width: 50px;
-    height: 50px;
-}
-
-/* Card Title */
-.vision-card h4 {
-    font-size: 20px;
-    color: #333;
     margin-bottom: 10px;
 }
 
-/* Card Description */
-.vision-card p {
-    font-size: 14px;
-    color: #555;
-    line-height: 1.6;
-    margin-bottom: 20px;
-}
-
-/* Learn More Button */
-.learn-more-btn {
+.header-cell {
     font-weight: bold;
-    background-color: #007a33;
-    color: #ffffff;
-    border: none;
-    border-radius: 5px;
-    padding: 10px 20px;
-    font-size: 14px;
-    cursor: pointer;
+    padding: 5px;
+}
+#select{
+    background-color: #e0f3e9;
+    padding: 10px;
+}
+.survey-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 10px;
+    border-bottom: 1px solid #666;
+    border-left: 1px solid #666;
+    border-right: 1px solid #666;
 }
 
+.question-cell {
+    flex-grow: 1;
+    padding-right: 20px;
+    font-weight: bold;
+}
+
+.select-wrapper {
+    position: relative;
+    min-width: 100px;
+    padding: 10px;
+    border-left: 1px solid #666;
+}
