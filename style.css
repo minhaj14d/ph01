@@ -65,7 +65,6 @@
 /* pillars Cards Container */
 .pillar-cards-container {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     gap: 20px;
 }
@@ -77,6 +76,7 @@
     padding: 20px;
     gap: 0 10px;
     width: 100%;
+    height: auto;
 }
 
 /* Icon Styling */
@@ -264,7 +264,6 @@
 .news-meta img {
     height: 30px;
     width: auto;
-    display: flex;
 }
 
 .news-meta span {
@@ -433,4 +432,41 @@
     border: none;
     height: 1px;
     background-color: #dedede;
+}
+
+.learn-more-btn:hover {
+    transform: scale(1.05);
+}
+.btn-primary:hover {
+    background-color: #005a24;
+    transform: scale(1.05);
+
+}
+.vision-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.pillar-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.quote-section:hover {
+    transform: translateY(-5px);
+    border: 1px solid #006A50;
+}
+.news-card:hover {
+    border: 1px solid #006A50;
+}
+.donation-button:hover{
+        transform: translateY(-5px);
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.donate-now:hover{
+    background-color: #005a24;
+}
+.subscribe-button:hover{
+    background-color: #005a24;
+}
+.nav-button:hover{
+    transform: scale(1.05);   
 }
